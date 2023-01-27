@@ -1,0 +1,8 @@
+.grid-2-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.About p {
+  text-align: left;
+}

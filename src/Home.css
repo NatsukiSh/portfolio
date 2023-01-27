@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #f9f7fe;
+  --branding-color: #b1afff;
+  --secondary-color: f9f7fe;
+  --text-decoration: none;
+  --box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.3);
+  --text-aligh: center;
+}
+
+body {
+  font-family: "Source Serif Pro", serif;
+  background: linear-gradient(
+    180.2deg,
+    rgb(30, 33, 48) 6.8%,
+    rgb(74, 98, 110) 131%
+  );
+  background-attachment: fixed;
+  text-align: var(--text-aligh);
+  font-size: 20px;
+  color: white;
+}
+
+.Home {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 200px;
+}
+
+.Home h1 {
+  font-size: 76px;
+}
+
+.btn {
+  margin-top: 20px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+@media (max-width: 900px) {
+  .Home h1 {
+    font-size: 46px;
+  }
+
+  .Home p {
+    font-size: 18px;
+  }
+}
