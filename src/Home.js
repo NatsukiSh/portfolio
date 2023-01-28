@@ -1,5 +1,6 @@
 import "./Home.css";
 import About from "./About";
+import Projects from "./Projects";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <button className="btn btn-outline-info">About me</button>
       </div>
       <About />
+      <Projects />
     </div>
   );
 }

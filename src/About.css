@@ -1,8 +1,19 @@
 .grid-2-columns {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+
+.About h2 {
+  text-align: left;
+  color: #0dcaf0;
 }
 
 .About p {
   text-align: left;
+}
+
+.About img {
+  max-width: 100%;
+  border-radius: 50%;
 }
