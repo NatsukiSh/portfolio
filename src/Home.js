@@ -9,7 +9,9 @@ export default function Home() {
         <h2>Hello there, this is </h2>
         <h1>Natsuki Shuko</h1>
         <p>Fronend Web Developer, based in Germany</p>
-        <button className="btn btn-outline-info">About me</button>
+        <a href="#about" className="btn btn-outline-info">
+          About me
+        </a>
       </div>
       <About />
       <Projects />

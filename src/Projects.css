@@ -1,0 +1,9 @@
+.Projects h2 {
+  text-align: center;
+  color: #0dcaf0;
+}
+
+.Projects img {
+  max-width: 100%;
+  border-radius: 10%;
+}
