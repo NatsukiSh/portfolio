@@ -14,6 +14,9 @@ export default function About() {
             opportunities to grow as a Frontend Web Developer.
           </p>
           <img src={require(`./img/me.jpg`)} alt="Natsuki" title="Natsuki" />
+          <a href="#projects" className="btn btn-outline-info">
+            To my Projects
+          </a>
         </div>
       </div>
     </div>

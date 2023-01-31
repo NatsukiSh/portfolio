@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div className="Projects">
       <div className="container">
-        <h2>My Projects</h2>
+        <h2 id="projects">My Projects</h2>
         <div className="row">
           <div className="col-sm-4">
             <a
@@ -103,8 +103,8 @@ export default function Projects() {
                 </a>
               </small>
             </p>
-            <Icon />
           </div>
+          <Icon />
         </div>
       </div>
     </div>

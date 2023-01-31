@@ -1,6 +1,7 @@
 .grid-2-columns {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 50px;
 }
 
@@ -9,6 +10,18 @@
   color: #0dcaf0;
   margin-bottom: 30px;
   font-size: 56px;
+}
+
+.btn {
+  margin: 20px 0 70px;
+  border-radius: 50%;
+  padding: 25px;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background: #01ffdd;
+  cursor: pointer;
 }
 
 .About p {

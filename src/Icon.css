@@ -1,5 +1,42 @@
 .Icon h2 {
   text-align: center;
   color: #0dcaf0;
-  font-size: 56px;
+  font-size: 25px;
+}
+
+.Icon .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  font-size: 50px;
+}
+
+.Icon .fa-html5 {
+  color: #dd4b25;
+}
+
+.Icon .fa-css3-alt {
+  color: #2449d8;
+}
+
+.Icon .fa-square-js {
+  color: #e4d04b;
+}
+
+.Icon .fa-react {
+  color: #5ccfee;
+}
+
+.Icon .fa-bootstrap {
+  color: #8012f2;
+}
+
+.Icon .fa-square-github {
+  color: #1a1d21;
+}
+
+@media (max-width: 900px) {
+  .Icon h2 {
+    font-size: 18px;
+  }
 }
