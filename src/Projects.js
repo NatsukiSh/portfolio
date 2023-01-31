@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import Icon from "./Icon";
 
 export default function Projects() {
   return (
@@ -15,12 +16,10 @@ export default function Projects() {
             >
               <img src={require(`./img/weather.jpg`)} alt="Weather App" />
             </a>
-            <h3 className="text-center mt-4">Weather App</h3>
-            <p className="text-center text-muted">
-              Built with HTML, CSS and ReactJS
-              <br />
-              <small className="text-center">
-                <i className="fa-brands fa-react mb-5"></i>
+            <h3>Weather App</h3>
+            <p>
+              <small>
+                <i className="fa-brands fa-react"></i>
                 <a
                   href="https://github.com/NatsukiSh/weather-react-challenge"
                   target="_blank"
@@ -49,12 +48,10 @@ export default function Projects() {
             >
               <img src={require(`./img/dictionary.jpg`)} alt="Dictionary App" />
             </a>
-            <h3 className="text-center mt-4">Dictionary App</h3>
-            <p className="text-center text-muted">
-              Built with HTML, CSS and ReactJS
-              <br />
-              <small className="text-center">
-                <i className="fa-brands fa-react mb-5"></i>
+            <h3>Dictionary App</h3>
+            <p>
+              <small>
+                <i className="fa-brands fa-react"></i>
                 <a
                   href="https://github.com/NatsukiSh/dictionary-project"
                   target="_blank"
@@ -83,12 +80,10 @@ export default function Projects() {
             >
               <img src={require(`./img/timezone.jpg`)} alt="Timezone App" />
             </a>
-            <h3 className="text-center mt-4">Timezone App</h3>
-            <p className="text-center text-muted">
-              Built with HTML, CSS and ReactJS
-              <br />
-              <small className="text-center">
-                <i className="fa-brands fa-react mb-5"></i>
+            <h3>Timezone App</h3>
+            <p>
+              <small>
+                <i className="fa-brands fa-react"></i>
                 <a
                   href="https://github.com/NatsukiSh/world-clock-project"
                   target="_blank"
@@ -108,6 +103,7 @@ export default function Projects() {
                 </a>
               </small>
             </p>
+            <Icon />
           </div>
         </div>
       </div>

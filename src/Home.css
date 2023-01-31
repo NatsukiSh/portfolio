@@ -36,7 +36,13 @@ body {
 .btn {
   margin: 20px 0 70px;
   border-radius: 50%;
-  padding: 20px;
+  padding: 25px;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background: #01ffdd;
+  cursor: pointer;
 }
 
 @media (max-width: 900px) {

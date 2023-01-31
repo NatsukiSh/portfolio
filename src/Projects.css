@@ -1,9 +1,42 @@
 .Projects h2 {
   text-align: center;
   color: #0dcaf0;
+  font-size: 56px;
+  margin-bottom: 50px;
+}
+.Projects h3 {
+  font-size: 24px;
+  margin: 10px;
 }
 
 .Projects img {
   max-width: 100%;
   border-radius: 10%;
+}
+
+.Projects img:hover {
+  transform: scale(1.5);
+}
+
+.Projects p {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 900px) {
+  .Projects h2 {
+    font-size: 40px;
+  }
+
+  .Projects h3 {
+    font-size: 21px;
+  }
+
+  .Projects img {
+    max-width: 80%;
+  }
+
+  .Projects p {
+    font-size: 16px;
+  }
 }
