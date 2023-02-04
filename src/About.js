@@ -12,11 +12,11 @@ export default function About() {
             detail-oriented and passionate about creating visually appealing and
             user-friendly websites. I am looking for new challenges and
             opportunities to grow as a Frontend Web Developer.
+            <a href="#projects" className="btn btn-outline-info">
+              To my Projects
+            </a>
           </p>
           <img src={require(`./img/me.jpg`)} alt="Natsuki" title="Natsuki" />
-          <a href="#projects" className="btn btn-outline-info">
-            To my Projects
-          </a>
         </div>
       </div>
     </div>

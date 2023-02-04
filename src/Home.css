@@ -33,14 +33,14 @@ body {
   font-size: 76px;
 }
 
-.btn {
+.Home .btn {
   margin: 20px 0 70px;
   border-radius: 50%;
   padding: 25px;
   transition: all 200ms ease-in-out;
 }
 
-button:hover {
+.Home .btn:hover {
   background: #01ffdd;
   cursor: pointer;
 }
