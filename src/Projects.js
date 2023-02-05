@@ -14,7 +14,11 @@ export default function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={require(`./img/weather.jpg`)} alt="Weather App" />
+              <img
+                src={require(`./img/weather.jpg`)}
+                alt="Weather App"
+                title="Weather App"
+              />
             </a>
             <h3>Weather App</h3>
             <p>
@@ -46,7 +50,11 @@ export default function Projects() {
               rel="noreferrer"
               target="_blank"
             >
-              <img src={require(`./img/dictionary.jpg`)} alt="Dictionary App" />
+              <img
+                src={require(`./img/dictionary.jpg`)}
+                alt="Dictionary App"
+                title="Dictionary App"
+              />
             </a>
             <h3>Dictionary App</h3>
             <p>
@@ -78,7 +86,11 @@ export default function Projects() {
               rel="noreferrer"
               target="_blank"
             >
-              <img src={require(`./img/timezone.jpg`)} alt="Timezone App" />
+              <img
+                src={require(`./img/timezone.jpg`)}
+                alt="Timezone App"
+                title="Timezone App"
+              />
             </a>
             <h3>Timezone App</h3>
             <p>
