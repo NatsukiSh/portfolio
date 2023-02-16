@@ -1,7 +1,6 @@
 .grid-2-columns {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   grid-gap: 50px;
 }
 
@@ -35,15 +34,29 @@
   border-radius: 50%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 400px) {
   .About h2 {
     font-size: 40px;
   }
 
   .About p {
+    text-align: inherit;
     font-size: 16px;
   }
   .About .btn {
-    margin: 80px;
+    position: relative;
+    right: 50px;
+    top: -95px;
+
+    margin: 120px;
+  }
+
+  .About img {
+    display: flex;
+    position: absolute;
+    left: 250px;
+    top: 950px;
+    max-width: 30%;
+    border-radius: 50%;
   }
 }

@@ -8,7 +8,7 @@ export default function About() {
         <h2 id="about">About me</h2>
         <div className="grid grid-2-columns">
           <p>
-            My name is Natsuki, a React Developer. I highly motivated
+            My name is Natsuki, a Frontend Web Developer. I highly motivated
             detail-oriented and passionate about creating visually appealing and
             user-friendly websites. I am looking for new challenges and
             opportunities to grow as a Frontend Web Developer.

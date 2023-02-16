@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import Icon from "./Icon";
+import Tools from "./Tools";
 
 export default function Projects() {
   return (
@@ -116,7 +116,10 @@ export default function Projects() {
               </small>
             </p>
           </div>
-          <Icon />
+          <a href="#tools" className="btn btn-outline-info">
+            Tools
+          </a>
+          <Tools />
         </div>
       </div>
     </div>
