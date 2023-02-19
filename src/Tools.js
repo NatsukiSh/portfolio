@@ -1,17 +1,10 @@
-import { fa } from '@fortawesome/free-brands-svg-icons'
-import React, { useState } from "react";
+import React from "react";
 import "./Tools.css";
 
 export default function Tools() {
-  const [afterClick, setAfterClick] = useState(false);
   return (
     <div className="Tools">
       <div className="container">
-        <div>
-          <input type="submit" value="Click" onClick={onClick} />{" "}
-          {afterClick ? <afterClick /> : null}
-        </div>
-      )
         <h2 id="tools">My Projects build with</h2>
         <div className="grid grid-3-columns">
           <i className="fa-brands fa-html5"></i>
@@ -25,4 +18,5 @@ export default function Tools() {
         </div>
       </div>
     </div>
+  );
 }
