@@ -4,7 +4,7 @@ import "./Tools.css";
 export default function Tools() {
   return (
     <div className="Tools">
-      <div className="container">
+      <div className="default-container">
         <h2 id="tools">My Projects build with</h2>
         <div className="grid grid-3-columns">
           <i className="fa-brands fa-html5"></i>

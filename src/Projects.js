@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import Tools from "./Tools";
+import ToggleVisibility from "./ToggleVisibility";
 
 export default function Projects() {
   return (
@@ -119,7 +120,9 @@ export default function Projects() {
           <a href="#tools" className="btn btn-outline-info">
             Tools
           </a>
-          <Tools />
+          <ToggleVisibility>
+            <Tools />
+          </ToggleVisibility>
         </div>
       </div>
     </div>
