@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./ToggleVisibility.css";
 
 export default function ToggleVisibility({ children }) {
   const [show, setShow] = useState();
@@ -7,7 +8,7 @@ export default function ToggleVisibility({ children }) {
     setShow(!show);
   }
 
-  var buttonText = show ? "Hide Component" : "Show Component";
+  var buttonText = show ? "**Hide**" : "**Check out my Tools**";
 
   return (
     <div className="component-container">

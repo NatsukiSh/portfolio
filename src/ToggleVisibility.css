@@ -1,0 +1,23 @@
+.ToggleVisibility .component-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ToggleVisibility .component-container {
+  margin-top: 30px;
+  gap: 20px;
+}
+
+button {
+  display: inline-block;
+  color: #01ffdd;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+  background-color: var(--bs-btn-bg);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

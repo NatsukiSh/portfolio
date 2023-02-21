@@ -117,9 +117,6 @@ export default function Projects() {
               </small>
             </p>
           </div>
-          <a href="#tools" className="btn btn-outline-info">
-            Tools
-          </a>
           <ToggleVisibility>
             <Tools />
           </ToggleVisibility>

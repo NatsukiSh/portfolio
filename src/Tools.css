@@ -8,7 +8,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  font-size: 50px;
+  font-size: 100px;
+  grid-gap: 80px;
 }
 
 .Tools .fa-html5 {
@@ -34,9 +35,36 @@
 .Tools .fa-square-github {
   color: #1a1d21;
 }
+.default-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.default-container {
+  gap: 20px;
+}
 
-@media (max-width: 900px) {
+@media (max-width: 400px) {
   .Tools h2 {
     font-size: 18px;
+  }
+
+  .Tools .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    font-size: 50px;
+    grid-gap: 40px;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 401px) {
+  .Tools .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    font-size: 80px;
+    grid-gap: 60px;
   }
 }
