@@ -20,30 +20,16 @@
 
 .Projects p {
   font-size: 18px;
-  margin-bottom: 50px;
+  margin: 20px 0 50px 0;
 }
 
-.Projects .btn {
-  position: relative;
-  left: -490px;
-  top: -450px;
-  margin: 50%;
-  border-radius: 50%;
-  transition: all 200ms ease-in-out;
-}
-
-.Projects .btn:hover {
-  background: #01ffdd;
-  cursor: pointer;
-}
-
-@media (max-width: 900px) {
+@media (max-width: 400px) {
   .Projects h2 {
     font-size: 40px;
   }
 
   .Projects h3 {
-    font-size: 21px;
+    font-size: 28px;
   }
 
   .Projects img {
@@ -51,24 +37,16 @@
   }
 
   .Projects p {
-    font-size: 16px;
-  }
-
-  .Projects .btn {
-    position: relative;
-    left: -20px;
-    top: -10px;
-    margin: 20px;
-    border-radius: 50%;
+    font-size: 18px;
   }
 }
 
 @media (max-width: 900px) and (min-width: 401px) {
-  .Projects .btn {
-    position: relative;
-    left: -10px;
-    top: -30px;
-    margin: 20px;
-    border-radius: 120%;
+  .Projects h3 {
+    font-size: 19px;
+  }
+
+  .Projects p {
+    font-size: 11px;
   }
 }
