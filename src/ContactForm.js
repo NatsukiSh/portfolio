@@ -1,8 +1,6 @@
 import React from "react";
 import "./ContactForm.css";
 
-export default ContactForm;
-
 const ContactForm = () => {
   const [formStatus, setFormStatus] = React.useState("send");
   const onSubmit = (e) => {
@@ -45,3 +43,5 @@ const ContactForm = () => {
     </div>
   );
 };
+
+export default ContactForm;
