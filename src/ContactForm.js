@@ -15,22 +15,23 @@ const ContactForm = () => {
     console.log(conForm);
   };
   return (
-    <div className="Contact-container mt-5">
-      <h2 className="mb-3">Contact Me</h2>
+    <div className="Contact-container">
+      <h2>Contact Me</h2>
+      <h4>Got a question or proposal, or just want to say hello? Go ahead.</h4>
       <form onSubmit={onSubmit}>
-        <div className="mb-3">
+        <div>
           <label className="form-label" htmlFor="name">
             Name:
           </label>
           <input className="form-control" type="text" id="name" required />
         </div>
-        <div className="mb-3">
+        <div>
           <label className="form-label" htmlFor="email">
             Email Address:
           </label>
           <input className="form-control" type="email" id="email" required />
         </div>
-        <div className="mb-3">
+        <div>
           <label className="form-label" htmlFor="message">
             Message:
           </label>

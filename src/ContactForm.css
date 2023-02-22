@@ -1,6 +1,33 @@
-.Contact h2 {
+h2 {
   text-align: left;
   color: #0dcaf0;
   margin: 0 30px 30px;
   font-size: 56px;
+}
+
+label.form-label {
+  text-align: left;
+  font-size: 25px;
+}
+
+input#name.form-control,
+input#email.form-control {
+  margin: 20px 100px;
+}
+
+input#message.form-control {
+  margin: 20px;
+  padding: 10px 8px;
+}
+
+button.btn {
+  margin: 20px 0 70px;
+  border-radius: 50%;
+  padding: 25px;
+  transition: all 200ms ease-in-out;
+}
+
+button.btn:hover {
+  background: #01ffdd;
+  cursor: pointer;
 }
