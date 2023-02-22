@@ -5,19 +5,22 @@ h2 {
   font-size: 56px;
 }
 
-label.form-label {
-  text-align: left;
+.form-label {
+  position: relative;
+  left: -450px;
+  top: 43px;
+  font-weight: bold;
   font-size: 25px;
 }
 
-input#name.form-control,
-input#email.form-control {
-  margin: 20px 100px;
+.FillingFormName,
+.FillingFormEmail,
+.FillingFormMessage {
+  margin: 0 100px;
 }
 
-input#message.form-control {
-  margin: 20px;
-  padding: 10px 8px;
+.FillingFormName,
+.FillingFormEmail {
 }
 
 button.btn {
@@ -30,4 +33,27 @@ button.btn {
 button.btn:hover {
   background: #01ffdd;
   cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .form-label {
+    position: relative;
+    left: -130px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 401px) {
+  .form-label {
+    position: relative;
+    left: -327px;
+    font-weight: bold;
+    font-size: 20px;
+  }
 }
