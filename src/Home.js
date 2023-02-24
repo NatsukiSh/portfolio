@@ -2,6 +2,7 @@ import "./Home.css";
 import About from "./About";
 import Projects from "./Projects";
 import ContactForm from "./ContactForm";
+import Footer from "./Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Projects />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
