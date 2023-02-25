@@ -24,7 +24,7 @@ export default function Footer() {
             <i class="fa-solid fa-envelope"></i>
           </a>
           <a
-            href="https://github.com/NatsukiSh/portfolio"
+            href="https://github.com/NatsukiSh"
             target="_blank"
             rel="noreferrer"
             title="GitHub"

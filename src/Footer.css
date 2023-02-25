@@ -2,6 +2,10 @@
   font-size: 36px;
 }
 
+i {
+  color: #0dcaf0;
+}
+
 .grid-4-columns {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
