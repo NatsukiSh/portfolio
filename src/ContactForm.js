@@ -1,61 +1,65 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./ContactForm.css";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
-  const [formStatus, setFormStatus] = React.useState("send");
-  const onSubmit = (e) => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    setFormStatus("Submitting...");
-    const { name, email, message } = e.target.elements;
-    let conForm = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    console.log(conForm);
+    emailjs
+      .sendForm(
+        "service_w5pd3iu",
+        "template_sb9f92m",
+        form.current,
+        "dwP4clCBNXpMupWCx"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
   };
   return (
     <div className="Contact-container">
       <h2>Contact Me</h2>
-      <form onSubmit={onSubmit}>
+      <form ref={form} onSubmit={sendEmail}>
         <div className="FillingFormName">
-          <label className="form-label" htmlFor="name">
-            Name:
-          </label>
+          <label className="form-label" htmlFor="name"></label>
           <input
             className="form-control"
             type="text"
-            id="name"
+            name="user_name"
             required
             placeholder="Enter your name"
           />
         </div>
         <div className="FillingFormEmail">
-          <label className="form-label" htmlFor="email">
-            Email:
-          </label>
+          <label className="form-label" htmlFor="email"></label>
           <input
             className="form-control"
             type="email"
-            id="email"
+            name="user_email"
             required
             placeholder="Enter your Email"
           />
         </div>
         <div className="FillingFormMessage">
-          <label className="form-label" htmlFor="message">
-            Message:
-          </label>
-          <input
+          <label className="form-label" htmlFor="message"></label>
+          <textarea
             className="form-control"
             type="text"
-            id="message"
+            name="message"
             required
             placeholder="Got a question or proposal, or just want to say hello? Go ahead."
           />
         </div>
         <button className="btn btn-outline-info" type="submit">
-          {formStatus}
+          Send
         </button>
       </form>
     </div>
