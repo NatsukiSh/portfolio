@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import Resume from "./Resume";
 
 export default function Footer() {
   return (
@@ -33,7 +32,7 @@ export default function Footer() {
             <i class="fa-brands fa-square-github"></i>
           </a>
           <a
-            href={<Resume />}
+            href="/pdfs/resume.pdf"
             target="_blank"
             rel="noreferrer"
             title="My Resume"
