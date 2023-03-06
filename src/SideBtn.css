@@ -1,0 +1,78 @@
+.sbn-list {
+  margin-right: 20px;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 40%;
+}
+
+.sbn:first-of-type,
+.sbn:nth-of-type(2) {
+  border-top: none;
+  height: 200px;
+  padding-top: 0;
+}
+
+.sbn:nth-of-type(odd) {
+  float: left;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol,
+ul {
+  padding-left: 2rem;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  list-style: none;
+}
+
+.sbn11 ul li a.is-active {
+  background-color: #fff;
+}
+
+.sbn11 ul li a {
+  border: 2px solid #fff;
+}
+
+ul li a {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 14px;
+  outline: none;
+  overflow: hidden;
+  text-indent: 100%;
+  transition: 0.2s ease-in-out;
+  white-space: nowrap;
+  width: 14px;
+}
+
+a {
+  color: var(--bs-link-color);
+  text-decoration: underline;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}

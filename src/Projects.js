@@ -5,7 +5,7 @@ import ToggleVisibility from "./ToggleVisibility";
 
 export default function Projects() {
   return (
-    <div className="Projects">
+    <div className="Projects" id="Projects">
       <div className="container">
         <h2 id="projects">My Projects</h2>
         <div className="row">

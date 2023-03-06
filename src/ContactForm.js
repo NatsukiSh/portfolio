@@ -25,7 +25,7 @@ const ContactForm = () => {
     e.target.reset();
   };
   return (
-    <div className="Contact-container">
+    <div className="Contact-container" id="Contact">
       <h2>Contact Me</h2>
       <form ref={form} onSubmit={sendEmail}>
         <div className="FillingFormName">

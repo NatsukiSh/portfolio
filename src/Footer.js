@@ -3,7 +3,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="Footer">
+    <div className="Footer" id="Footer">
       <hr />
       <div className="contact-info">
         <div className="grid grid-4-columns">
