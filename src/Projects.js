@@ -88,7 +88,7 @@ export default function Projects() {
               target="_blank"
             >
               <img
-                src={require(`./img/timezone.jpg`)}
+                src={require(`./img/timezone.JPG`)}
                 alt="Timezone App"
                 title="Timezone App"
               />
