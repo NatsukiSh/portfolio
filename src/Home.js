@@ -12,15 +12,15 @@ export default function Home() {
         <h3>Welcome to my page, this is </h3>
         <h1>Natsuki Shuko</h1>
         <p>Fronend Web Developer, based in Germany</p>
-        <a href="#about" className="btn btn-outline-info">
-          About me
-        </a>
-        <SideBtn />
-        <About />
-        <Projects />
-        <ContactForm />
-        <Footer />
       </div>
+      <a href="#about" className="btn btn-outline-info">
+        About me
+      </a>
+      <SideBtn />
+      <About />
+      <Projects />
+      <ContactForm />
+      <Footer />
     </div>
   );
 }

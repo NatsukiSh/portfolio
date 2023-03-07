@@ -23,6 +23,7 @@ export default function SideBtn() {
                 onClick={handleClick}
                 ref={link1Ref}
                 className={activeLink === link1Ref.current ? "is-active" : ""}
+                title="Top page"
               >
                 1
               </a>
@@ -33,6 +34,7 @@ export default function SideBtn() {
                 onClick={handleClick}
                 ref={link2Ref}
                 className={activeLink === link2Ref.current ? "is-active" : ""}
+                title="About me"
               >
                 2
               </a>
@@ -43,6 +45,7 @@ export default function SideBtn() {
                 onClick={handleClick}
                 ref={link3Ref}
                 className={activeLink === link3Ref.current ? "is-active" : ""}
+                title="My Projects"
               >
                 3
               </a>
@@ -53,6 +56,7 @@ export default function SideBtn() {
                 onClick={handleClick}
                 ref={link4Ref}
                 className={activeLink === link4Ref.current ? "is-active" : ""}
+                title="Contact me"
               >
                 4
               </a>
