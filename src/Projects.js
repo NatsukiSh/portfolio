@@ -117,6 +117,18 @@ export default function Projects() {
               </small>
             </p>
           </div>
+          <p>
+            To check more other projects, please visit my
+            <a
+              href="https://github.com/NatsukiSh"
+              target="_blank"
+              className="text-decoration-none"
+              rel="noreferrer"
+            >
+              {" "}
+              GitHub
+            </a>
+          </p>
           <ToggleVisibility>
             <Tools />
           </ToggleVisibility>
